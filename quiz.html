@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz | Pranjal Agrawal</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">PRANJAL.</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="personal_profile.html">Profile</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+
+        <button id="themeToggle">☾</button>
+
+    </header>
+
+
+    <main class="quiz-page">
+
+        <section class="quiz-intro">
+
+            <p class="tag">INTERACTIVE QUIZ</p>
+
+            <h1>
+                Test your<br>
+                <span>knowledge.</span>
+            </h1>
+
+            <p>
+                Answer five questions about programming,
+                AI and web development.
+            </p>
+
+        </section>
+
+
+        <section class="quiz-container">
+
+            <div class="quiz-header">
+
+                <span id="questionNumber">
+                    Question 1 of 5
+                </span>
+
+                <span id="scoreDisplay">
+                    Score: 0
+                </span>
+
+            </div>
+
+
+            <div class="progress-container">
+                <div id="progressBar"></div>
+            </div>
+
+
+            <div id="quizContent">
+
+                <h2 id="question"></h2>
+
+                <div id="answers"></div>
+
+                <div id="feedback"></div>
+
+                <button id="nextButton" disabled>
+                    Next →
+                </button>
+
+            </div>
+
+
+            <div id="result" class="result">
+
+                <p class="tag">QUIZ COMPLETE</p>
+
+                <h2 id="finalScore">
+                    0 / 5
+                </h2>
+
+                <p id="resultMessage"></p>
+
+                <button id="restartButton">
+                    Take Quiz Again
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 Pranjal Agrawal</p>
+        <p>Session 09 · Session 10</p>
+
+    </footer>
+
+
+    <script src="assets/theme.js"></script>
+    <script src="assets/quiz.js"></script>
+
+</body>
+
+</html>
